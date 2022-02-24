@@ -1,0 +1,152 @@
+*{
+    margin: 0;
+}
+
+.about{
+    /* position: absolute; */
+    width: 100%;
+    height: 890px;
+    /* left: 1px; */
+    top: -2px;
+    background-color: rebeccapurple;
+    background: linear-gradient(180deg, rgba(5, 11, 20, 0.28) 0%, rgba(1, 13, 32, 0.69) 67.53%, #0A0B1A 85.33%);
+    /* background-image: url(/homejam/src/images/about.png); */
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+  
+}
+
+
+.navbar {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    padding: 20px 10%;
+    /* background-color: #24252a; */
+  }
+  
+  .logo {
+    margin-right: auto;
+    font-size: 27px;
+    color: white;
+  }
+  
+  .nav__links {
+    list-style: none;
+    display: flex;
+  }
+  
+  .nav__links a,
+  .cta
+   {
+    font-family: "Montserrat", sans-serif;
+    font-weight: 500;
+    color: #edf0f1;
+    text-decoration: none;
+  }
+  
+  .nav__links li {
+    padding: 0px 20px;
+  }
+  
+  .nav__links li a {
+    transition: all 0.3s ease 0s;
+  }
+  
+  .nav__links li a:hover {
+    color: #0088a9;
+  }
+  
+  .cta {
+    margin-left: 20px;
+    padding: 9px 25px;
+    background-color: rgba(0, 136, 169, 1);
+    border: none;
+    border-radius: 50px;
+    cursor: pointer;
+    transition: all 0.3s ease 0s;
+  }
+  
+  .cta:hover {
+    background-color: rgba(0, 136, 169, 0.8);
+  } 
+
+
+  /* .navbar{
+      display: flex;
+  } */
+
+  .nav__links{
+      display: flex;
+  }
+
+  .title{
+    /* position: absolute; */
+    width: 383px;
+    height: 96px;
+    margin-left: 151px;
+    margin-top: 246px;
+    /* font-family: Libre Baskerville; */
+    font-style: normal;
+    font-weight: bold;
+    color: white;
+    font-size: 80px;
+    
+  }
+
+  .sub-title{
+      /* position: absolute; */
+    width: 611px;
+    height: 64px;
+    margin-left: 151px;
+    font-family: Nunito;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 24px;
+    line-height: 32px;
+    color: white;
+  }
+.circ{
+    display: flex;
+    /* background-color: rebeccapurple; */
+    justify-content: space-between;
+    padding: 0px 300px;
+    margin-top: 250px;
+}
+
+  .circle {
+      /* position: absolute; */
+    background: #E5E5E5;
+    background-color:#fff;
+    border:1px solid red;    
+    height:150px;
+    border-radius:50%;
+    -moz-border-radius:50%;
+    -webkit-border-radius:50%;
+    width:150px;
+    top: 100%;
+}
+
+.circle-data{
+    /* position: relative; */
+    text-align: center;
+    margin-top: 25px;
+    /* background-color: red; */
+     height: 80px;
+    /* width: 60px;  */
+    padding-top: 18px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.circle p{
+    text-align: center;
+}
+
+.circle .img{
+    /* align-items: center; */
+    display: block;
+    margin: 0 auto;
+    padding-right: 39px;
+}

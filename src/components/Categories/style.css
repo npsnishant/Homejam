@@ -1,0 +1,92 @@
+
+.cat-item{
+    font-family: Nunito;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    justify-content: space-between;
+    padding: 0px 40px;
+    padding-top: 80px;
+    display: flex;
+    align-items: center;
+    text-align: right;
+}
+
+hr{
+    width: 50px;
+    height: 2px;
+    background-color: black;
+    margin-left: 40px;
+    margin-bottom: 30px;
+}
+
+.card-wrapper{
+    height: 300px;
+    width: 240px;
+    background-color: white;
+    margin: auto;
+    box-shadow: rgba(110, 175, 231, 0.48) 6px 2px 16px 0px, rgba(255, 255, 255, 0.8) -6px -2px 16px 0px;
+    border: 1px solid black;
+    border-radius: 5px;
+}
+
+.card-container{
+    display: flex;
+
+}
+
+.imgs{
+    height: 200px;
+    width: 240px;
+}
+
+.card-wrapper p span img{
+    height: 15px;
+    width: 15px;
+}
+
+
+
+.detail{
+    display: flex;
+}
+
+.categ{
+    padding-bottom: 10px;
+    font-family: Nunito;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 600;
+    /* line-height: 14px; */
+    letter-spacing: 0em;
+    padding-left: 10px;
+}
+
+.name{
+    padding-left: 10px;
+    font-family: Libre Baskerville;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 20px;
+    display: flex;
+    align-items: center;
+
+}
+
+.detail{
+    justify-content: space-between;
+    padding: 0px 10px;
+}
+
+
+.detail p{   
+    font-family: Nunito;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 32px;
+    display: flex;
+    align-items: center;
+}
+
+

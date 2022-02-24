@@ -1,0 +1,96 @@
+.review{
+    font-family: Nunito;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    padding: 0px 40px;
+    margin-top: 80px;
+    align-items: center;
+    margin-bottom: 50px;
+    margin-top: 100px;
+
+}
+    
+
+.lines{
+    width: 50px;
+    height: 2px;
+    background-color: black;
+    margin-left: 3px;
+}
+
+.review-container{
+    display: flex;
+    justify-content: space-between;
+    padding-left: 100px;
+    height: 300px;
+    margin: auto;
+    width: 70%;
+}
+
+.rev-wrapper{
+    width: 300px;
+    height: 200px;
+    border: 1px solid black;
+    box-shadow: rgba(240, 46, 170, 0.4) 5px 5px, rgba(240, 46, 170, 0.3) 10px 10px, rgba(240, 46, 170, 0.2) 15px 15px, rgba(240, 46, 170, 0.1) 20px 20px, rgba(240, 46, 170, 0.05) 25px 25px;
+    border-radius: 5px;
+}
+
+.rev-title{
+    display: flex;
+}
+
+.rev-title-right{
+    display: flex;
+    /* background-color: rebeccapurple; */
+    height: 40px;
+    width: 270px;
+    flex-direction: column;
+    padding-top: 10px;
+    margin-left: 1px;
+}
+
+.rev-title-right span img{
+    height: 20px;
+    width: 20px;
+}
+
+.rev-title-right .name {     
+    font-family: Quattrocento;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 16px;
+}
+
+.rev-title-right .country{
+    font-family: Nunito;
+font-style: normal;
+font-weight: 600;
+font-size: 11px;
+line-height: 16px;
+display: flex;
+align-items: center;
+text-transform: uppercase;
+}
+
+
+.rev-title .top-img{
+    height: 40px;
+    width: 40px;
+    border-radius: 40px;
+    /* background-color: rebeccapurple; */
+    margin: 10px 5px;
+
+}
+
+.text{
+    padding: 10px 5px;
+    font-family: Nunito;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+}
+ 
+.text p{
+    color: white;
+}
