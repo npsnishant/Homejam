@@ -3,14 +3,11 @@
 }
 
 .about{
-    /* position: absolute; */
     width: 100%;
     height: 890px;
-    /* left: 1px; */
     top: -2px;
     background-color: rebeccapurple;
     background: linear-gradient(180deg, rgba(5, 11, 20, 0.28) 0%, rgba(1, 13, 32, 0.69) 67.53%, #0A0B1A 85.33%);
-    /* background-image: url(/homejam/src/images/about.png); */
     background-repeat: no-repeat;
     background-size: 100% 100%;
   
@@ -29,6 +26,7 @@
     margin-right: auto;
     font-size: 27px;
     color: white;
+    cursor:pointer;
   }
   
   .nav__links {
@@ -57,36 +55,21 @@
     color: #0088a9;
   }
   
-  .cta {
-    margin-left: 20px;
-    padding: 9px 25px;
-    background-color: rgba(0, 136, 169, 1);
-    border: none;
-    border-radius: 50px;
+  .nav__links span img{
+    height: 20px;
+    width: 20px;
     cursor: pointer;
-    transition: all 0.3s ease 0s;
   }
-  
-  .cta:hover {
-    background-color: rgba(0, 136, 169, 0.8);
-  } 
-
-
-  /* .navbar{
-      display: flex;
-  } */
 
   .nav__links{
       display: flex;
   }
 
   .title{
-    /* position: absolute; */
     width: 383px;
     height: 96px;
     margin-left: 151px;
     margin-top: 246px;
-    /* font-family: Libre Baskerville; */
     font-style: normal;
     font-weight: bold;
     color: white;
@@ -95,7 +78,6 @@
   }
 
   .sub-title{
-      /* position: absolute; */
     width: 611px;
     height: 64px;
     margin-left: 151px;
@@ -115,7 +97,6 @@
 }
 
   .circle {
-      /* position: absolute; */
     background: #E5E5E5;
     background-color:#fff;
     border:1px solid red;    

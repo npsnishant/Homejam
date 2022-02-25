@@ -1,6 +1,8 @@
 import React from 'react'
 import './style.css'
 import heart from '../../img/heart.png'
+import search from '../../img/search.png'
+
 
 const About = () => {
     return (
@@ -10,6 +12,7 @@ const About = () => {
                     <span class="logo">Homejam</span>
                     <nav>
                         <ul class="nav__links">
+                            <span> <img src={search}/> </span>
                             <li><a href="#home">Search</a></li>
                             <li><a href="#about">Help</a></li>
                             <li><a href="#skills">Account</a></li>
